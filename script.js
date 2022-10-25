@@ -152,7 +152,6 @@ function sextoDigitoBotaoDiminuir(callback) {
     }
 }
 
-
 function mostrarPrimeiroDigito() {
     primeiroDigito.textContent = `${primeiroDigitoAtual}`
 }
