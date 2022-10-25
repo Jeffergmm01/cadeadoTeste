@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.porta-cadeado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: lightgray;
+}
+
+.porta-cadeado img {
+    width: 250px;
+    height: auto;
+}
+
+.mensagem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 80px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+.senha {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+    gap: 30px
+}
+
+.primeiro-caracter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.segundo-caracter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.terceiro-caracter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.quarto-caracter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.quinto-caracter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.sexto-caracter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+button {
+    width: 45px;
+    height: 55px;
+    background-color: white;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+.conferir {
+    margin-top: 20px;
+    width: 200px;
+}
+
+.receber-premio {
+    margin-top: 20px;
+    width: 460px;
+}
