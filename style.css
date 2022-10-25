@@ -49,10 +49,10 @@ span {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    width: 500px;
+    width: 400px;
     height: 200px;
     border: 2px solid black;
-    gap: 30px
+    gap: 20px
 }
 
 .primeiro-caracter {
