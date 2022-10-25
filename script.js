@@ -193,7 +193,7 @@ diminuirSextoDigito.onclick = () => sextoDigitoBotaoDiminuir(mostrarSextoDigito)
 function realizarConferencia() {
     if (primeiroDigitoAtual === 1 && segundoDigitoAtual === 9 && terceiroDigitoAtual === 2 && quartoDigitoAtual === 3 && quintoDigitoAtual === 1 && sextoDigitoAtual === 1) {
         portaCadeado.style.backgroundColor = 'green'
-        fotoCadeado.setAttribute('src', '../Cadeado/assets/cadeadoaberto.png')
+        fotoCadeado.setAttribute('src', '../assets/cadeadoaberto.png')
         mensagemResposta.textContent = 'Você Acertou'
         portaMensagem.style.backgroundColor = 'green'
         conferir = true;
